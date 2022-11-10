@@ -1,0 +1,121 @@
+#ex01 .box {
+  transition: background-color;
+}
+
+#ex01 .box:hover {
+  background-color: #0f6f85;
+}
+
+#ex02 .box {
+  transition: background-color 0.5s;
+}
+
+#ex02 .box:hover {
+  background-color: #0f6f85;
+}
+
+#ex03 .box {
+  transition: background-color 0.5s 0.3s;
+}
+
+#ex03 .box:hover {
+  background-color: #0f6f85;
+}
+
+#ex04 .box {
+  transition: background-color 0.5s;
+}
+
+#ex04 .box:hover {
+  background-color: #0f6f85;
+  color: #eaeaea;
+}
+
+#ex05 .box {
+  transition: background-color 0.5s, color 0.5s 0.3s;
+}
+
+#ex05 .box:hover {
+  background-color: #0f6f85;
+  color: #eaeaea;
+}
+
+#ex06 .box {
+  transition: background-color 0.5s;
+}
+
+#ex06 .wrapper:hover .box {
+  background-color: #0f6f85;
+}
+
+#ex07 .box:nth-child(1) {
+  transition: background-color 0.5s 0.5s;
+}
+
+#ex07 .box:nth-child(2) {
+  transition: background-color 0.5s 1s;
+}
+
+#ex07 .box:nth-child(3) {
+  transition: background-color 0.5s 1.5s;
+}
+
+#ex07 .wrapper:hover .box {
+  background-color: #0f6f85;
+}
+
+#ex08 .box {
+  transition: background-color 0.5s;
+}
+
+#ex08 .wrapper {
+  transition: background-color 0.5s;
+}
+
+#ex08 .wrapper:hover .box {
+  background-color: #eaeaea;
+}
+
+#ex08 .wrapper:hover {
+  background-color: #0f6f85;
+}
+
+#ex09 .box {
+  transition: background-color 0.5s 1s;
+}
+
+#ex09 .wrapper {
+  transition: background-color 0.5s 0.3s;
+}
+
+#ex09 .wrapper:hover .box {
+  background-color: #eaeaea;
+}
+
+#ex09 .wrapper:hover {
+  background-color: #0f6f85;
+}
+
+#ex10 .box {
+  transition: transform 0.5s;
+}
+
+#ex10 .box:hover {
+  transform: translateY(20px);
+}
+
+#ex11 .box {
+  transition: transform 0.5s;
+}
+
+#ex11 .box:hover {
+  transform: rotate(90deg);
+}
+
+#ex12 .box {
+  transition: transform 0.5s;
+}
+
+#ex12 .box:hover {
+  transform: scale(1.2);
+}
