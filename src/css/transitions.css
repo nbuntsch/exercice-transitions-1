@@ -3,7 +3,8 @@
 }
 
 .box {
-  transition: 1s;
+  transition: 0.5s;
+  transition-delay: 0.2s;
 }
 .tree {
   transition: ;
