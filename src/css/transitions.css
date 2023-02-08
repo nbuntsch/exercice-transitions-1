@@ -50,6 +50,14 @@
   transition: background-color 0.6s 0.5s;
 }
 
+:hover.box-10 {
+  transform: translatey(20px);
+}
+
+.box-10 {
+  transition: transform 0.7s 0.1s;
+}
+
 /* :hover.box {
   background-color: var(--midnight-green);
   color: white;
