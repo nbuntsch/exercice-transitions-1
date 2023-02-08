@@ -21,6 +21,19 @@
   transition-delay: 0.5s;
 }
 
+:hover.wrapper-8 {
+  background-color: #14445b;
+}
+
+:hover.wrapper-8 .box-8 {
+  background-color: #f0f7e2;
+}
+
+.wrapper-8,
+.box-8 {
+  transition: background-color 0.3s 0.2s;
+}
+
 /* :hover.box {
   background-color: var(--midnight-green);
   color: white;
