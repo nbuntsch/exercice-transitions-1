@@ -66,6 +66,14 @@
   transition: transform 0.7s 0.1s;
 }
 
+:hover.box-12 {
+  transform: scale(1.2);
+}
+
+.box-12 {
+  transition: transform 0.7s 0.1s;
+}
+
 /* :hover.box {
   background-color: var(--midnight-green);
   color: white;
