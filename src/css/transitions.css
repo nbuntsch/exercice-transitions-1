@@ -1,0 +1,84 @@
+:hover.wrapper-6 .box-6 {
+  background-color: var(--midnight-green);
+}
+
+.wrapper-6 .box-6 {
+  transition: background-color 0.6s 0.2s;
+}
+
+:hover.wrapper-7 .box-7 {
+  background-color: var(--midnight-green);
+}
+
+.wrapper-7 .box-7 {
+  transition: background-color 0.6s 0.2s;
+}
+.box-7:nth-child(2) {
+  transition-delay: 0.3s;
+}
+
+.box-7:nth-child(3) {
+  transition-delay: 0.5s;
+}
+
+:hover.wrapper-8 {
+  background-color: #14445b;
+}
+
+:hover.wrapper-8 .box-8 {
+  background-color: #f0f7e2;
+}
+
+.wrapper-8,
+.box-8 {
+  transition: background-color 0.3s 0.2s;
+}
+
+:hover.wrapper-9 {
+  background-color: #14445b;
+}
+
+:hover.wrapper-9 .box-9 {
+  background-color: #f0f7e2;
+}
+
+.wrapper-9 {
+  transition: background-color 0.3s 0.2s;
+}
+
+.box-9 {
+  transition: background-color 0.6s 0.5s;
+}
+
+:hover.box-10 {
+  transform: translatey(20px);
+}
+
+.box-10 {
+  transition: transform 0.7s 0.1s;
+}
+
+:hover.box-11 {
+  transform: rotate(90deg);
+}
+
+.box-11 {
+  transition: transform 0.7s 0.1s;
+}
+
+:hover.box-12 {
+  transform: scale(1.2);
+}
+
+.box-12 {
+  transition: transform 0.7s 0.1s;
+}
+
+/* :hover.box {
+  background-color: var(--midnight-green);
+  color: white;
+}
+
+.box {
+  transition: color 0.5s 0.4s, background-color 0.6s 0.2s;
+} */
