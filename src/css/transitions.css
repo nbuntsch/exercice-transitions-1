@@ -1,14 +1,9 @@
 :hover.box {
   background-color: var(--midnight-green);
+  color: white;
 }
 
 .box {
   transition: 0.5s;
   transition-delay: 0.2s;
-}
-.tree {
-  transition: ;
-}
-.log {
-  transition: ;
 }
