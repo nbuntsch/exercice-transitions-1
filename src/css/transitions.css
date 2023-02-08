@@ -1,8 +1,16 @@
-:hover.box {
+:hover.wrapper-6 .box-6 {
+  background-color: var(--midnight-green);
+}
+
+.wrapper-6 .box-6 {
+  transition: background-color 0.6s 0.2s;
+}
+
+/* :hover.box {
   background-color: var(--midnight-green);
   color: white;
 }
 
 .box {
   transition: color 0.5s 0.4s, background-color 0.6s 0.2s;
-}
+} */
