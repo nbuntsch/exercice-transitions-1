@@ -58,6 +58,14 @@
   transition: transform 0.7s 0.1s;
 }
 
+:hover.box-11 {
+  transform: rotate(90deg);
+}
+
+.box-11 {
+  transition: transform 0.7s 0.1s;
+}
+
 /* :hover.box {
   background-color: var(--midnight-green);
   color: white;
